@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    top: 40px;
+    bottom: 0px;
+    font-size: 6px;
+    padding-left: 2px;
+    background-color:white;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ,.home{
+    margin-bottom: 16px;
+}
+nav img{
+    height: 11px;
+    cursor: pointer;
+}
+nav .icon11:active, nav .icon12:active,nav .icon13:active,
+nav .icon14:active,nav .icon15:active,nav .icon16:active
+{
+    height: 15px;
+    
+}
